@@ -1,20 +1,22 @@
 # To-Do List com Django
 
-Um aplicativo de lista de tarefas (To-Do list) desenvolvido com o framework Django, que permite aos usuários gerenciar suas tarefas de forma eficiente.
+Um aplicativo de lista de tarefas (To-Do_Meu_List-SLZ) desenvolvido com o framework Django, que permite aos usuários gerenciar suas tarefas de forma eficiente.
 
-## Funcionalidades
+## Funcionalidades Principais
 
 *   **Autenticação de Usuários:**
     *   Cadastro de novos usuários.
     *   Login e Logout seguros.
+    *   Páginas de autenticação com design moderno.
 *   **Gerenciamento de Tarefas:**
     *   Criar, visualizar, editar e excluir tarefas.
     *   Marcar tarefas como concluídas.
     *   As tarefas são privadas e associadas a cada usuário.
-*   **Melhorias Visuais:**
+*   **Design e Experiência do Usuário:**
     *   Interface moderna e responsiva, utilizando Bootstrap 5.
-    *   Tema escuro (dark mode) com botão para alternar entre os temas.
-    *   Layout aprimorado para uma melhor experiência do usuário.
+    *   **Modo Noturno (Dark Mode):** Botão para alternar facilmente entre o tema claro e escuro.
+    *   Layout aprimorado para uma melhor experiência de usuário em todas as páginas (Login, Cadastro, Lista de Tarefas).
+    *   Responsividade aprimorada para dispositivos móveis.
 
 ## Tecnologias Utilizadas
 
@@ -32,7 +34,7 @@ Um aplicativo de lista de tarefas (To-Do list) desenvolvido com o framework Djan
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/luanhayalla2/DJANGO.git
-    cd Todo_List_Django
+    cd DJANGO
     ```
 
 2.  **Crie e ative um ambiente virtual:**
@@ -53,7 +55,7 @@ Um aplicativo de lista de tarefas (To-Do list) desenvolvido com o framework Djan
     ```bash
     pip install Django
     ```
-    *(**Nota:** É uma boa prática criar um arquivo `requirements.txt` com `pip freeze > requirements.txt` para gerenciar as dependências do projeto.)*
+    *(**Nota:** Para um melhor gerenciamento de dependências, você pode criar um arquivo `requirements.txt` com o comando `pip freeze > requirements.txt` e depois instalar com `pip install -r requirements.txt`)*
 
 4.  **Aplique as migrações do banco de dados:**
     ```bash
@@ -75,7 +77,3 @@ Um aplicativo de lista de tarefas (To-Do list) desenvolvido com o framework Djan
 ## Contribuição
 
 Contribuições são bem-vindas! Se você tiver alguma ideia para melhorar este projeto, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
