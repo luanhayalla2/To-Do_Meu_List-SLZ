@@ -1,4 +1,4 @@
-# To-Do List com Django
+#To-Do_Meu_List-SLZ
 
 Um aplicativo de lista de tarefas (To-Do_Meu_List-SLZ) desenvolvido com o framework Django, que permite aos usuários gerenciar suas tarefas de forma eficiente.
 
